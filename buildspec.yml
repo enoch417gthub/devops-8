@@ -10,4 +10,4 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3..."
-      - aws s3 sync . s3://- aws s3 sync . s3://enoch-devops-8 --delete --delete
+      - aws s3 sync . s3://enoch-devops-8 --delete
